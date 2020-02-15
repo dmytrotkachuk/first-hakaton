@@ -1,0 +1,28 @@
+.awards-box {
+  &__img {
+    width: 41px;
+    height: 136px;
+  }
+  &__item {
+  display: flex;
+   margin-bottom: 45px;
+    &-title {
+      display: block;
+      font-size: rem(12);
+      font-family:'Acrom-font';
+      /* to do mistakes */
+      margin-bottom: 32px;
+      }
+    & h4 {
+      font-size: rem(14);
+      font-family: 'Acrom-font';
+      font-weight: $extra-bold;
+      margin-bottom: 12px;
+    }
+    & p {
+      font-size: rem(14);
+      font-family: 'Acrom-font';
+      line-height: 19.5px;
+    }
+  }
+}

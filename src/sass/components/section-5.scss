@@ -1,0 +1,15 @@
+.wrapper-ordinary-people {
+  margin: 0 auto;
+  &__text {
+    font-family:$acrom;
+    font-size: rem(14);
+    font-weight:$medium;
+    color: $black-color;
+    line-height: 19.5px;
+    letter-spacing: -0.35px;
+  }
+}
+.title-accent {
+  background-color: black;
+  color: wheat;
+}
