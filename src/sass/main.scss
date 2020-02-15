@@ -10,8 +10,9 @@
 @import 'helpers/reset';
 
 // COMPONENTS
+@import 'components/black-list.scss';
 @import 'components/title.scss';
+
 // LAYOUTS
 @import 'layouts/header.scss';
-@import 'layouts/footer.scss';
 @import 'base.scss';
