@@ -12,7 +12,7 @@
           <span class="blue-accent">ценность 215 грн</span>
         </p>
       </li>
-      <li>
+      <li class="blue-list__item">
         <h3 class="blue-list__title">
           PDF «Переводчик с IT-языка на человеческий»
         </h3>
@@ -24,29 +24,32 @@
     </ul>
   </div>
   <div class="col-6">
-    <form action="#">
+    <form class="signup-form" action="#">
       <div class="signup-cont">
-        <label for=""
-          >Имя<input
-            type="text"
-            placeholder="Как вас зовут?"
-            name="name"
-            required
-        /></label>
-        <label for=""
-          >Телефон<input
-            type="text"
-            placeholder="Ваш номер телефона?"
-            name="number"
-            required/></label
-        ><label for=""
-          >E-mail<input
-            type="text"
-            placeholder="Адрес электронного ящика?"
-            name="e-mail"
-            required
-        /></label>
-        <button type="submit" class="button button-orange">
+        <label class="signup-cont__label" for="">Имя</label>
+        <input
+          type="text"
+          placeholder="Как вас зовут?"
+          name="name"
+          class="signup-cont__item"
+          required
+        />
+        <label class="signup-cont__label" for="">Телефон</label
+        ><input
+          type="text"
+          placeholder="Ваш номер телефона?"
+          name="number"
+          class="signup-cont__item"
+          required
+        /><label class="signup-cont__label" for="">E-mail</label>
+        <input
+          type="text"
+          placeholder="Адрес электронного ящика?"
+          name="e-mail"
+          class="signup-cont__item"
+          required
+        />
+        <button type="submit" class="button button-orange margin-top-32">
           Приобрести видео курс
         </button>
       </div>
