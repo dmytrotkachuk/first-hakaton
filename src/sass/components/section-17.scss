@@ -1,0 +1,45 @@
+.signup-form {
+  width: 370px;
+  height: 346px;
+  box-shadow: 2px 2px 4px 4px rgba($color: $black-color, $alpha: 0.1);
+  display: flex;
+  justify-content: center;
+}
+
+.signup-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+}
+
+.signup-cont__label {
+  margin-bottom: rem(10);
+  font-size: rem(8);
+  font-family: $acrom;
+  font-weight: $bold;
+  line-height: rem(12);
+  color: $footer-hr-color;
+}
+
+.signup-cont__item {
+  font-family: $acrom;
+  font-weight: $regular;
+  font-size: rem(9);
+  line-height: rem(12);
+  padding-bottom: rem(4);
+  margin-bottom: rem(7);
+  border-bottom: 2px solid rgba($color: $black-color, $alpha: 0.1);
+
+  &::placeholder {
+    color: $black-color;
+  }
+
+  // &:last-child {
+  //   margin-bottom: rem(31);
+  // }
+}
+
+.margin-top-32 {
+  margin-top: rem(32);
+}
