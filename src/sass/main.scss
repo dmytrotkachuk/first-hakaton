@@ -8,7 +8,9 @@
 @import 'helpers/mixins.scss';
 @import 'helpers/functions.scss';
 @import 'helpers/reset';
+
 @import 'helpers/grid.scss';
+@import 'base.scss';
 
 // COMPONENTS
 @import 'components/black-list.scss';
@@ -17,7 +19,11 @@
 @import 'components/awards-list.scss';
 @import 'components/will-learn-list.scss';
 @import 'components/section-5.scss';
+@import 'components/slider.scss';
+@import 'components/blue-list.scss';
+@import 'components/orange-text.scss';
+@import 'components/section-9.scss';
 
 // LAYOUTS
 @import 'layouts/header.scss';
-@import 'base.scss';
+

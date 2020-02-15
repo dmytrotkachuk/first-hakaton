@@ -3,6 +3,11 @@
     padding-left: rem(50);
     position: relative;
     counter-increment: section;
+    margin-bottom: rem(30);
+
+    &:last-child {
+      margin-bottom: rem(44);
+    }
 
     &::after {
       content: '';
@@ -10,19 +15,20 @@
       width: rem(9);
       height: rem(9);
       background-color: $blue-color;
-      top: rem(23);
+      top: rem(25);
       left: rem(23);
     }
 
     &::before {
       position: absolute;
-      left: rem(0);
+      left: -9px;
+      top: -5px;
       font-family: $acrom;
       font-weight: $extra-bold;
       content: counter(section, decimal-leading-zero) '.';
-      clip: rect(auto auto auto rem(6));
-      font-size: rem(18.75);
-      line-height: rem(22.5);
+      clip: rect(auto auto auto rem(7));
+      font-size: rem(24.54);
+      line-height: rem(29.45);
       color: $black-color;
     }
   }
@@ -35,6 +41,8 @@
     font-size: rem(13.5);
     line-height: rem(19.5);
     color: $black-color;
+    text-transform: uppercase;
+    margin-bottom: rem(10);
   }
 
   &__description {
