@@ -1,0 +1,44 @@
+.blue-list {
+  &__item {
+    padding-left: 50px;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      background-color: $footer-grey-color;
+      width: rem(9);
+      height: rem(9);
+      top: 0;
+      left: 0;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: rem(9);
+      height: rem(9);
+      background-color: $blue-color;
+      top: rem(19);
+      left: rem(23);
+    }
+  }
+
+  &__title {
+    margin: 0;
+    padding: 0;
+    font-family: $acrom;
+    font-weight: $extra-bold;
+    font-size: rem(13.5);
+    line-height: rem(19.5);
+  }
+
+  &__description {
+    margin: 0;
+    padding: 0;
+    font-family: $acrom;
+    font-weight: $regular;
+    font-size: rem(13.5);
+    line-height: rem(19.5);
+  }
+}
