@@ -23,11 +23,26 @@
   margin: 0 auto;
   padding: 0; 
 }
-.awards-box{
+.awards-box {
     &__item{
     margin-bottom: 45px;
+      &-title {
+        font-size: rem(12);
+        font-family:'Acrom-font';
+        /* to do mistakes */
+        margin-bottom: 32px;
+        }
       & h4 {
+        font-size: rem(14);
+        font-family: 'Acrom-font';
+        font-weight: 800;
         margin-bottom: 12px;
+      }
+      & p {
+        font-size: rem(14);
+        font-family: 'Acrom-font';
       }
     }
 }
+
+
