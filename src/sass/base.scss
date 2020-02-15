@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  
 }
 
 *,
@@ -11,6 +12,8 @@ html {
 body {
   font-family: $acrom;
   color: $text-color;
+  font-size: rem(13.5);
+  line-height: rem(19.5);
 }
 
 img {
