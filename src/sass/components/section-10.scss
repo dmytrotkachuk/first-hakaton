@@ -1,8 +1,4 @@
 
-.container {
-
-}
-
 .section-10-img {
   width: rem(446);
   height: rem(179);
@@ -23,13 +19,17 @@
   font-family: $acrom;
   font-weight: $medium;
   font-size: rem(14);
-  line-height: rem(16.5);
   position: relative;
-  margin-bottom: rem(36);
   padding-left: rem(26);
   
 
 }
+
+.section-10--orange-text {
+  margin-bottom: rem(36);
+  line-height: rem(16.5);
+}
+
 
 .orange-text:before {
   content: "";
