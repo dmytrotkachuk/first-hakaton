@@ -8,11 +8,13 @@
 @import 'helpers/mixins.scss';
 @import 'helpers/functions.scss';
 @import 'helpers/reset';
+@import 'helpers/grid.scss';
 
 // COMPONENTS
 @import 'components/black-list.scss';
 @import 'components/title.scss';
-
+@import 'components/button.scss';
+@import 'components/section-11-awars.scss';
 // LAYOUTS
 @import 'layouts/header.scss';
 @import 'base.scss';
