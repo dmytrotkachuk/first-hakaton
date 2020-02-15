@@ -1,26 +1,29 @@
 .blue-list {
   &__item {
-    padding-left: 50px;
+    padding-left: rem(50);
     position: relative;
+    counter-increment: section;
 
     &::after {
-      content: '';
-      position: absolute;
-      background-color: $footer-grey-color;
-      width: rem(9);
-      height: rem(9);
-      top: 0;
-      left: 0;
-    }
-
-    &::before {
       content: '';
       position: absolute;
       width: rem(9);
       height: rem(9);
       background-color: $blue-color;
-      top: rem(19);
+      top: rem(23);
       left: rem(23);
+    }
+
+    &::before {
+      position: absolute;
+      left: rem(0);
+      font-family: $acrom;
+      font-weight: $extra-bold;
+      content: counter(section, decimal-leading-zero) '.';
+      clip: rect(auto auto auto rem(6));
+      font-size: rem(18.75);
+      line-height: rem(22.5);
+      color: $black-color;
     }
   }
 
@@ -31,6 +34,7 @@
     font-weight: $extra-bold;
     font-size: rem(13.5);
     line-height: rem(19.5);
+    color: $black-color;
   }
 
   &__description {
@@ -40,5 +44,6 @@
     font-weight: $regular;
     font-size: rem(13.5);
     line-height: rem(19.5);
+    color: $text-color;
   }
 }
