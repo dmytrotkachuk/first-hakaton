@@ -1,0 +1,45 @@
+
+.container {
+  width: rem(446);
+  margin: 0 auto;
+  padding: 0;
+}
+
+.section-10-img {
+  width: rem(446);
+  height: rem(179);
+  margin-bottom: rem(23);
+}
+
+.wrapper__text {
+  margin: 0;
+  padding: 0;
+}
+
+.section__title {
+  margin-bottom: rem(27);
+}
+
+.orange-text {
+  color: $orange-color;
+  font-family: $acrom;
+  font-weight: $medium;
+  font-size: rem(14);
+  line-height: rem(16.5);
+  position: relative;
+  margin-bottom: rem(36);
+  padding-left: rem(26);
+  
+
+}
+
+.orange-text:before {
+  content: "";
+  width: rem(12);
+  height: rem(21);
+  border-left: 2px solid $black-color;
+  position: absolute;
+  transform: rotate(20deg);
+  left: rem(3);
+  top: rem(4);
+}
