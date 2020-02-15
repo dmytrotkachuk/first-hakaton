@@ -1,13 +1,13 @@
 .black-list {
-   padding: 25px;
+   padding: rem(25);
 
     &__item {
-        width: 290px;
+        width: rem(290);
     }
 
     &__title {
         position: relative;
-        font-family: 'Acrom' sans-serif;
+        font-family: $acrom;
         font-weight: bold;
         font-size: rem(14px);
         text-transform: uppercase;
@@ -17,18 +17,18 @@
             content: "";
             background-color: rgb(0, 0, 0);
             position: absolute;          
-            width: 9px;
-            height: 9px;
-            top: 4px;
-            left: -24px;                                       
+            width: rem(9);
+            height: rem(9);
+            top: rem(4);
+            left: rem(-24);                                       
         }
     }
 
 
     &__description {
-        font-family: 'Acrom' sans-serif;
+        font-family: $acrom;
         font-size: rem(10px);
-        margin-bottom: 26px;
+        margin-bottom: rem(26);
     }
 
 }
