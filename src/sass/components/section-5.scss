@@ -78,13 +78,16 @@
 }
 .slider-pagination {
   position: absolute;
-  top: 0;
+  top: 5px;
   left: 15px;
   display: flex;
     &__item {
-      margin-right: 2pxgo;
+      margin-right: 4px;
       font-size: rem(4);
       font-family:$acrom;
+        &--scale{
+          transform: scale(1.7);
+        }
     }
 }
 .button {
