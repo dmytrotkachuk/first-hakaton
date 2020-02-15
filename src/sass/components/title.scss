@@ -1,8 +1,10 @@
 .title {
-  @include font($weight: 'regular');
+  font-family: $acrom;
+  font-weight: $extra-bold;
+  text-transform: uppercase;
   color: $black-color;
-  font-size: 27px;
-  line-height: 34px;
+  font-size: rem(30);
+  line-height: rem(37);
 
   &-accent {
     color: $white-color;
@@ -10,5 +12,14 @@
   }
 
   &__description {
+    font-size: rem(10);
+    line-height: rem(15);
+
+    &::before {
+      @include pseudo($display: block, $content: '');
+      width: rem(33);
+      height: rem(4);
+      background-color: $black-color;
+    }
   }
 }
