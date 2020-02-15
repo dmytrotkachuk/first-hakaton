@@ -12,13 +12,20 @@
   }
 
   &__description {
-    font-size: rem(10);
-    line-height: rem(15);
+    position: relative;
+    font-size: rem(13.5);
+    line-height: rem(19.5);
+    font-weight: 500;
+    padding-left: rem(37);
+    color: $black-color;
 
     &::before {
       @include pseudo($display: block, $content: '');
-      width: rem(33);
-      height: rem(4);
+      width: rem(20);
+      height: rem(3);
+      position: absolute;
+      top: 7px;
+      left: 0;
       background-color: $black-color;
     }
   }
