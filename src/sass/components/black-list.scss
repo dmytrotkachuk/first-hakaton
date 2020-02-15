@@ -30,32 +30,13 @@
     text-transform: uppercase;
     margin-bottom: 14px;
 
-<<<<<<< HEAD
-    &::before {
-      content: '';
-      background-color: $black-color;
-      position: absolute;
-      width: 9px;
-      height: 9px;
-      top: 4px;
-      left: -24px;
-=======
     &__description {
         font-family: $acrom;
         font-size: rem(13);
         line-height: 1.444;
         color: $text-color;
         margin-bottom: rem(26);
->>>>>>> poskachei
     }
   }
 
-<<<<<<< HEAD
-  &__description {
-    font-family: 'Acrom' sans-serif;
-    font-size: rem(10px);
-    margin-bottom: 26px;
-  }
-=======
->>>>>>> poskachei
 }
