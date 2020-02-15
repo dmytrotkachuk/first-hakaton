@@ -22,12 +22,7 @@ img {
   height: auto;
 }
 
-.main-heading {
-  @include font($weight: 'extra-bold');
-  color: $white-color;
-  font-size: rem(45px);
-  line-height: rem(56px);
-}
+
 
 .container {
   width: 446px;

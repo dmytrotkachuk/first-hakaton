@@ -2,16 +2,17 @@
 .button {
   border: none;
   outline: none;
-  font-size: rem(12px);
-  font-family: '$acrom';
-  font-weight: normal;
-  line-height: 18px;
-  padding: 0;
+  font-size: rem(8);
+  font-family: $acrom;
+  font-weight: 800;
+  line-height: rem(11.5);
+  padding: rem(10) rem(23);
   margin: 0;
+  text-transform: uppercase;
   cursor: pointer;
 
   /*-----Class Button-Orange----*/
-  &__orange {
+  &-orange {
     transition: linear 200ms;
     color: $white-color;
     background-color: $orange-color;
@@ -28,7 +29,7 @@
   }
 
   /*-----Class Button-Empty----*/
-  &__empty {
+  &-empty {
     color: $white-color;
     background-color: transparent;
     border: 1px solid$footer-border-color;

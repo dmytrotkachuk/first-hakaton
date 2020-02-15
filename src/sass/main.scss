@@ -3,11 +3,13 @@
  */
 
 // Helpers
-@import 'helpers/variables.scss';
+@import 'helpers/reset';
 @import 'helpers/fonts.scss';
+@import 'helpers/variables.scss';
+
 @import 'helpers/mixins.scss';
 @import 'helpers/functions.scss';
-@import 'helpers/reset';
+
 
 @import 'helpers/grid.scss';
 @import 'base.scss';
@@ -21,8 +23,9 @@
 @import 'components/section-5.scss';
 @import 'components/blue-list.scss';
 @import 'components/orange-text.scss';
-@import 'components/section-9.scss';
+@import 'components/section-1.scss';
 
+@import 'components/section-9.scss';
 // LAYOUTS
 @import 'layouts/header.scss';
 
