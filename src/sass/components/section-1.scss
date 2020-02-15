@@ -1,0 +1,190 @@
+.header {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/GoIt_2.png);
+  background-position-y: 275px;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-color: #181c27;
+}
+
+.site-navigation {
+  padding-top: 16px;
+  padding-bottom: 28px;
+}
+
+.page-nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-nav__site-logo {
+  margin: 0;
+  padding: 0;
+  height: 19px;
+  text-decoration: none;
+}
+
+.page-nav__btn {
+  padding: 0;
+  margin: 0;
+  height: 10px;
+  border: none;
+  background-color: #181c27;
+}
+
+.block-welcome {
+  padding: 0;
+  margin: 0;
+}
+
+.block-socials {
+  width: 100%;
+}
+
+.site-item__find {
+  padding: 0;
+  margin: 0 auto;
+  width: 368px;
+  font-size: 13.5px;
+  font-family: 'Acrom';
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.714;
+  text-align: left;
+  margin-bottom: 164px;
+  position: relative;
+}
+
+.site-item__find::before {
+  content: '\2039';
+  position: absolute;
+  top: 0;
+  left: -14px;
+}
+
+.site-item__find::after {
+  content: '/ \203A';
+  position: absolute;
+  bottom: 0;
+  right: -14px;
+}
+
+.site-item__btn {
+  padding: 0;
+  margin: 0 auto;
+  border: none;
+  font-size: 11px;
+  background-color: #ff6b08;
+  box-shadow: 0px 9px 13px 0px #c4570f42;
+  font-family: 'Acrom';
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5;
+  height: 56px;
+  width: 220px;
+  margin-bottom: 40px;
+}
+
+.block-socials__find {
+  padding: 0;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: 'Acrom';
+  color: #afb0b3;
+  line-height: 1.5;
+  text-align: left;
+  width: 370px;
+  padding-bottom: 40px;
+}
+
+.block-standart__style {
+  display: inline-block;
+  font-size: 24px;
+  font-family: 'Futura';
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.75;
+  text-align: left;
+  transform: rotate(-90deg);
+}
+
+.block-standart__find {
+  width: 370px;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 14px;
+  font-family: 'Futura';
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.286;
+  text-align: left;
+}
+
+.block-socials__share {
+  width: 370px;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 13.5px;
+  font-family: 'Acrom';
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.667;
+  padding-bottom: 18px;
+}
+
+.block-standart {
+  padding: 0;
+  margin: 0;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* svg */
+.block-gallery {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 30px;
+}
+
+.block-gallery__logo {
+  padding: 0;
+  margin: 0;
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  position: relative;
+}
+
+.block-gallery__icon {
+  display: inline-block;
+  fill: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.block-socials__icon--facebook {
+  width: 7px;
+  height: 12px;
+}
+
+.block-socials__icon--twitter {
+  width: 10px;
+  height: 9px;
+}
