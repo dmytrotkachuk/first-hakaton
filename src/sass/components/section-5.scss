@@ -1,14 +1,14 @@
 
 .wrapper-ordinary-people{
   margin: 0 auto;
-  margin-bottom: 38px;
-  padding-left: 40px;
+  margin-bottom:rem(38);
+  padding-left:prem(40);
       &__title {
         font-size: rem(18);
-        line-height: 24px;
+        line-height: rem(24);
         font-family: $acrom;
         font-weight:$extra-bold;
-        margin-bottom: 40px;
+        margin-bottom: rem(40);
       }
       &__text {
       font-family:$acrom;
@@ -23,8 +23,8 @@
           width: 20px;
           height: 4px;
           background-color: $black-color;
-          top: 10px;
-          left:-35px;
+          top: rem(10);
+          left:rem(-35);
         }
     }
 }
@@ -50,8 +50,8 @@
   box-shadow:  1px 1px 1px 1px $black-color;
 }
 .wrapper-review {
-  padding: 15px;
-  max-width: 171px;
+  padding: rem(15);
+  max-width:rem(171);
    &__text{
      font-size: rem(5);
      font-family: $acrom;
@@ -78,11 +78,11 @@
 }
 .slider-pagination {
   position: absolute;
-  top: 5px;
-  left: 15px;
+  top: rem(5);
+  left: rem(15);
   display: flex;
     &__item {
-      margin-right: 4px;
+      margin-right: rem(4);
       font-size: rem(4);
       font-family:$acrom;
         &--scale{
@@ -93,10 +93,7 @@
 .button {
   position: absolute;
   top: 0;
-  right: 15px;
-  width: 15px;
-  height: 15px;
-  background-color: $black-color;
+  right: rem(15);
 }
 .button__black-next {
   right:-1px;
