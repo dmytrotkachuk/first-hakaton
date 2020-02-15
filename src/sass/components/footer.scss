@@ -1,5 +1,5 @@
 .footer {
-    background-color: #181c27;
+    background-color: $footer-blue-color;
 
     &-box {
         height: rem(166);
@@ -13,7 +13,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        color: #ffffff;
+        color: $white-color;
         font-size: rem(9);
     
         &__title {  
@@ -41,8 +41,8 @@
         width: rem(138);
         height: rem(32);
         font-size: rem(8);
-        border: 1px solid #1b3e68;
-        color: #ffffff;
+        border: 1px solid $footer-border-color;
+        color: $white-color;
     }
 
 
