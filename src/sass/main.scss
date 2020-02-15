@@ -2,5 +2,19 @@
  * Все паршалы импортировать в этот файл
  */
 
-@import 'normalize.scss';
+// Helpers
+@import 'helpers/variables.scss';
+@import 'helpers/fonts.scss';
+@import 'helpers/mixins.scss';
+@import 'helpers/functions.scss';
+@import 'helpers/reset';
+
+// COMPONENTS
+@import 'components/container.scss';
+@import 'components/form.scss';
+@import 'components/slider.scss';
+
+// LAYOUTS
+@import 'layouts/header.scss';
+@import 'layouts/footer.scss';
 @import 'base.scss';
