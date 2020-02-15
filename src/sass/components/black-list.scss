@@ -1,42 +1,60 @@
-.black-list {
+ .black-list{
+   width: 400px;
 
-    min-width: rem(444);
-
-    &__title {
-        position: relative;
-        font-family: $acrom;
-        font-weight: $bold;
-        font-size: rem(14);
-        text-transform: uppercase;
-        margin-bottom: rem(14);
-
-        &::before {
+    &__description{
+      position: relative;
+      padding-left:  rem(40);
+      font-size: rem(14);
+      font-family: $acrom;
+      font-weight: normal;
+      color: rgb(0, 0, 0);
+      line-height: 1.444;
+      margin-bottom: rem(25);
+        
+          &::before{
             content: "";
             position: absolute;
-            background-color: rgb(0, 0, 0);
-            font-family: $acrom;          
             width: rem(9);
             height: rem(9);
-            top: rem(4);
-            left: rem(-24);                                     
+            top: rem(10);
+            left: rem(20);
+            background-color: black;
+
+          }
+          
         }
-    }
+     }
+.black-list__decor {
+  font-weight: $bold;
+}
 
-  &__title {
-    position: relative;
-    font-family: 'Acrom' sans-serif;
-    font-weight: bold;
-    font-size: rem(14px);
-    text-transform: uppercase;
-    margin-bottom: 14px;
-
-    &__description {
-        font-family: $acrom;
-        font-size: rem(13);
-        line-height: 1.444;
-        color: $text-color;
-        margin-bottom: rem(26);
-    }
-  }
+.orange-text{
+  color: $orange-color;
+  font-family: $acrom;
+  font-weight: $medium;
+  font-size: rem(14);
+  line-height: rem(19.5);
 
 }
+
+
+
+    
+  
+  
+
+      
+    
+
+      
+       
+  
+
+  
+
+
+    
+    
+  
+    
+  
