@@ -1,0 +1,72 @@
+
+.title{
+  
+  font-size: rem(25);
+  font-family: "Acrom";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.252;
+ 
+  }
+  
+.black-list{
+   width: 400px;
+
+    &__description{
+      position: relative;
+      padding-left:  rem(40);
+      font-size: rem(14);
+      font-family: $acrom;
+      font-weight: normal;
+      color: rgb(0, 0, 0);
+      line-height: 1.444;
+      margin-bottom: rem(25);
+        
+          &::before{
+            content: "";
+            position: absolute;
+            width: rem(9);
+            height: rem(9);
+            top: rem(10);
+            left: rem(20);
+            background-color: black;
+
+          }
+          
+        }
+     }
+.black-list__decor {
+  font-weight: $bold;
+}
+
+.orange-text{
+  color: $orange-color;
+  font-family: $acrom;
+  font-weight: $medium;
+  font-size: rem(14);
+  line-height: rem(19.5);
+
+}
+
+
+
+    
+  
+  
+
+      
+    
+
+      
+       
+  
+
+  
+
+
+    
+    
+  
+    
+  
