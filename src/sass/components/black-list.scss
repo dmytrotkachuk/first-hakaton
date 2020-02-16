@@ -1,0 +1,102 @@
+.black-list{
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px 0;
+
+    &__item {
+      padding-left:  rem(40);
+      position: relative;
+
+      &::before{
+        content: "";
+        position: absolute;
+        width: rem(9);
+        height: rem(9);
+        top: 5px;
+        left: 0;
+        background-color: $black-color;
+
+      }
+    }
+  
+
+    &__title {
+      text-transform: uppercase;
+      color: $black-color;
+      font-weight: 800;
+      margin-bottom: rem(5);
+     }
+
+    &__description{
+    font-size: rem(14);
+    font-family: $acrom;
+    font-weight: $regular;
+    color: $black-color;
+    line-height: 1.444;
+    margin-bottom: rem(5);
+  }
+}
+
+
+.word_earn {
+  font-size: rem(30);
+  line-height: rem(45);
+}
+.black-list__decor {
+  font-weight: $bold;
+}
+
+.orange-text{
+  color: $orange-color;
+  font-family: $acrom;
+  font-weight: $medium;
+  font-size: rem(14);
+  line-height: rem(19.5);
+}
+
+.section-2 .black-list__item {
+  @include for-size (tablet-portrait-up) {
+    padding-left: 10px;
+  }
+
+  &:before {
+    @include for-size (tablet-portrait-up) {
+      display: none;
+    }
+    
+  }
+}
+
+.img-header-block-1{
+  display: none;
+}
+@media (min-width:767px) {
+  .img-header-block-1{
+    display: block;
+  }
+  .first-line {
+    display: flex;
+  }
+  .img-header-block-2{
+    display: none;
+  }
+}
+.word_if_you {
+  text-align: center;
+  font-family: $acrom;
+  font-size: rem(18);
+  font-weight: $bold;
+}
+
+.section-2{
+  z-index: 2;
+}
+.section-2::before {
+  content: 'you';
+  font-size: rem(200);
+  transform: rotate(90deg);
+  text-transform: uppercase;
+  font-weight: $extra-bold;
+  color: #00000028;
+  z-index: 1;
+}

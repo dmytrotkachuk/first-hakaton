@@ -1,0 +1,171 @@
+.header {
+  margin: 0;
+  padding: 0;
+  background-image: url('../img/GoIt_2.png');
+  background-position-y: 275px;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-color: $footer-blue-color;
+}
+
+.site-navigation {
+  padding-top: 16px;
+  padding-bottom: 28px;
+}
+
+.page-nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-nav__site-logo {
+  margin: 0;
+  padding: 0;
+  height: 19px;
+  text-decoration: none;
+}
+
+.page-nav__btn {
+  padding: 0;
+  margin: 0;
+  height: 10px;
+  border: none;
+  background-color: $footer-blue-color;
+}
+
+.block-socials {
+  width: 100%;
+}
+
+.header-content1 {
+  padding: 0;
+  margin: 0;
+}
+
+.header-content1__title {
+  margin: 0 auto;
+  color: $white-color;
+  font-size: rem(30);
+  font-family: $acrom;
+  line-height: rem(39);
+  width: rem(244);
+  padding-bottom: rem(46);
+}
+
+.header-content1__text {
+  padding: 0;
+  margin: 0 auto;
+  width: rem(368);
+  font-size: rem(13.5);
+  line-height: rem(19.5);
+  font-family: $acrom;
+  color: $white-color;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.714;
+  text-align: left;
+  margin-bottom: rem(164);
+  position: relative;
+}
+
+.header-content1__text::before {
+  content: '\2039';
+  position: absolute;
+  color: $blue-color;
+  top: 0;
+  left: rem(-14);
+}
+
+.header-content1__text::after {
+  content: '/\203A';
+  color: $blue-color;
+  position: absolute;
+  bottom: 0;
+  right: rem(-14);
+}
+
+.block-socials3__btn {
+  padding: 0;
+  margin: 0 auto;
+  border: none;
+  font-size: 11px;
+  background-color: $orange-color;
+  box-shadow: 0px 9px 13px 0px #c4570f42;
+  font-family: $acrom;
+  color: $white-color;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5;
+  height: rem(56);
+  width: rem(219);
+  display: block;
+}
+
+.block-socials__text {
+  padding: 0;
+  margin: 0 auto;
+  font-size: rem(13.5);
+  font-family: $acrom;
+  color: #87898e;
+  line-height: 1.5;
+  text-align: left;
+  width: rem(30);
+  padding-bottom: rem(40);
+  width: rem(370);
+}
+
+.block-socials__title {
+  width: rem(370);
+  padding: 0;
+  margin: 0 auto;
+  font-size: rem(13.5);
+  font-family: $acrom;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.667;
+  padding-bottom: re, (18);
+  padding-bottom: rem(14);
+}
+
+.block-standart {
+  padding: 0;
+  margin: 0;
+  height: rem(30);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-gallery__logo {
+  padding: 0;
+  margin: 0;
+  height: rem(15);
+  width: rem(15);
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  position: relative;
+}
+
+.block-gallery__icon {
+  display: inline-block;
+  fill: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.block-socials__icon--facebook {
+  width: rem(7);
+  height: rem(12);
+}
+
+.block-socials__icon--twitter {
+  width: rem(10);
+  height: rem(9);
+}

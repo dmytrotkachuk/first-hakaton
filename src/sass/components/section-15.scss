@@ -1,0 +1,33 @@
+.section-15 {
+  padding-top: rem(10);
+  margin-bottom: rem(48);
+  display: flex;
+  justify-content: center;
+}
+
+.margin-bottom-48 {
+  margin-bottom: rem(48);
+}
+
+.margin-bottom-36 {
+  margin-bottom: rem(36);
+}
+
+.margin-left-50 {
+  margin-left: rem(50);
+}
+
+.img-section-15 {
+  display: none;
+
+  @include for-size (tablet-portrait-up) {
+    display: block;
+    text-align: right;
+  }
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

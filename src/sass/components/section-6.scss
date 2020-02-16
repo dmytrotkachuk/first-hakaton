@@ -1,0 +1,28 @@
+.section-img {
+    position: relative;
+    display: none;
+
+    @media (min-width: 768px) {
+        display: block;
+    }
+}
+
+.container-img {
+    position: absolute;
+    z-index: 2;
+}
+
+.section-img__text {
+    position: absolute;;
+    font-size: rem(200);
+    transform: rotate(90deg);
+    text-transform: uppercase;
+    font-weight: $extra-bold;
+    top: rem(260);
+    right: rem(-170);
+    color: #f3f3f3;
+    z-index: 1;
+}
+
+
+  

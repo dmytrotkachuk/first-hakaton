@@ -1,0 +1,31 @@
+/* Delete container*/
+.section-title {
+  font-size: rem(18);
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: rem(12);
+}
+
+.wrapper-will-learn {
+  margin: 0 auto;
+
+  & img {
+    width: 445px;
+    height: 160px;
+  }
+}
+.learn-box__title{
+  font-size: rem(14);
+  font-weight: 800;
+  margin-bottom: rem(17);
+}
+
+
+.wrapper-will-learn-box__img {
+  margin-bottom: rem(62);
+}
+
+.wrapper-awards {
+  margin: 0 auto;
+  padding: 0;
+}

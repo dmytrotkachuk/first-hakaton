@@ -1,0 +1,22 @@
+.empty-list {
+  list-style: none;
+
+  &__item {
+    font-family: $acrom;
+    font-weight: $regular;
+    font-size: rem(8px);
+    line-height: rem(14px);
+
+    &-bold {
+      font-family: $acrom;
+      font-weight: $bold;
+      font-size: rem(10);
+      line-height: rem(15);
+    }
+
+    &-orange {
+      color: $orange-color;
+      font-weight: $medium;
+    }
+  }
+}

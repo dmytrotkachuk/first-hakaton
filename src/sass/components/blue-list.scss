@@ -1,0 +1,57 @@
+.blue-list {
+  &__item {
+    padding-left: rem(50);
+    position: relative;
+    counter-increment: section;
+    margin-bottom: rem(30);
+
+    &:last-child {
+      margin-bottom: rem(44);
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: rem(9);
+      height: rem(9);
+      background-color: $blue-color;
+      top: rem(25);
+      left: rem(23);
+    }
+
+    &::before {
+      position: absolute;
+      left: -9px;
+      top: -5px;
+      font-family: $acrom;
+      font-weight: $extra-bold;
+      content: counter(section, decimal-leading-zero) '.';
+      clip: rect(auto auto auto rem(9));
+      font-size: rem(24.54);
+      line-height: rem(29.45);
+      color: $black-color;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    padding: 0;
+    font-family: $acrom;
+    font-weight: $extra-bold;
+    font-size: rem(13.5);
+    line-height: rem(19.5);
+    color: $black-color;
+    text-transform: uppercase;
+    margin-bottom: rem(10);
+  }
+
+  &__description {
+    margin: 0;
+    padding: 0;
+    font-family: $acrom;
+    font-weight: $regular;
+    font-size: rem(13.5);
+    line-height: rem(19.5);
+    color: $text-color;
+  }
+}
