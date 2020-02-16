@@ -13,7 +13,7 @@
         height: rem(9);
         top: 5px;
         left: 0;
-        background-color: black;
+        background-color: $black-color;
 
       }
     }
@@ -30,7 +30,7 @@
       font-size: rem(14);
       font-family: $acrom;
       font-weight: normal;
-      color: rgb(0, 0, 0);
+      color: $black-color;
       line-height: 1.444;
       margin-bottom: rem(25);
         
@@ -42,14 +42,6 @@
   font-weight: $bold;
 }
 
-.orange-text{
-  color: $orange-color;
-  font-family: $acrom;
-  font-weight: $medium;
-  font-size: rem(14);
-  line-height: rem(19.5);
-
-}
 
 
 
