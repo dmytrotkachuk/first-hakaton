@@ -36,6 +36,7 @@
       display: none;
       font-weight: $extra-bold;
       line-height: 2;
+
     }
   }
 
@@ -45,5 +46,13 @@
     font-size: rem(8);
     border: 1px solid $footer-border-color;
     color: $white-color;
+  }
+}
+
+@media (min-width:rem(767)) {
+  .footer-list__mail {
+    display: block;
+    line-height: rem(5);
+    padding-right: rem(100);
   }
 }
