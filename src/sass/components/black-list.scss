@@ -37,6 +37,11 @@
   }
 }
 
+
+.word_earn {
+  font-size: rem(30);
+  line-height: rem(45);
+}
 .black-list__decor {
   font-weight: $bold;
 }
@@ -69,7 +74,15 @@
   .img-header-block-1{
     display: block;
   }
+  .first-line {
+    display: flex;
+  }
   .img-header-block-2{
     display: none;
   }
+}
+.word_if_you {
+  font-family: $acrom;
+  font-size: rem(18);
+  font-weight: $bold;
 }
