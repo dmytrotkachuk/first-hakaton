@@ -1,9 +1,32 @@
  .black-list{
-   width: 400px;
+  display: flex;
+  flex-flow: row wrap; //added
+
+    &__item {
+      padding-left:  rem(40);
+      position: relative;
+
+      &::before{
+        content: "";
+        position: absolute;
+        width: rem(9);
+        height: rem(9);
+        top: 5px;
+        left: 0;
+        background-color: black;
+
+      }
+    }
+
+    &__title {
+      text-transform: uppercase;
+      color: $black-color;
+      font-weight: 800;
+      margin-bottom: 10px;
+      
+    }
 
     &__description{
-      position: relative;
-      padding-left:  rem(40);
       font-size: rem(14);
       font-family: $acrom;
       font-weight: normal;
@@ -11,16 +34,7 @@
       line-height: 1.444;
       margin-bottom: rem(25);
         
-          &::before{
-            content: "";
-            position: absolute;
-            width: rem(9);
-            height: rem(9);
-            top: rem(10);
-            left: rem(20);
-            background-color: black;
-
-          }
+          
           
         }
      }
