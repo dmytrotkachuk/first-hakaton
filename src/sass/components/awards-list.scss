@@ -6,11 +6,21 @@
   &__item {
     position: relative;
     margin-bottom:rem(45);
+    text-align:left;
+    che
     & h4 {
+      font-size:$acrom;
+      font-weight: $bold;
+      font-weight: rem(18);
       margin-bottom: rem(13);
     }
     & span {
       margin-bottom: rem(42);
+    }
+    & p {
+      font-size: rem(14);
+      font-weight: $medium;
+      font-family: $acrom;
     }
   }
 }
