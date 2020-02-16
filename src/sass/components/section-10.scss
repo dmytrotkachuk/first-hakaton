@@ -12,6 +12,11 @@
 
 .section-10__title {
   margin-bottom: rem(27);
+  display: none;
+}
+
+.section-10__text {
+display: none;
 }
 
 .orange-text {
@@ -26,9 +31,12 @@
 }
 
 .section-10--orange-text {
+  
   margin-bottom: rem(36);
-  line-height: rem(16.5);
+  width: rem(400);
+ 
 }
+
 
 
 .orange-text:before {
@@ -40,4 +48,26 @@
   transform: rotate(20deg);
   left: rem(3);
   top: rem(4);
+}
+
+.section-10__list {
+  margin-bottom: rem(52);
+
+}
+
+.black-list__title {
+  margin: 0 auto;
+  margin-bottom: rem(36);
+  width: rem(300);
+}
+
+.sec-10-block-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.button-orange-10 {
+  width: rem(216);
+  height: rem(50);
+
 }

@@ -31,8 +31,12 @@
   padding-left: rem(32);
   counter-increment: section;
   position: relative;
+
 }
 
+.orange-list__item:not(:last-child) {
+  margin-bottom: rem(30);
+}
 
 
 .orange-list__item:before {
@@ -68,7 +72,7 @@
   font-size: rem(13);
   font-weight: $regular;
   line-height: rem(20.31);
-  margin-bottom: rem(29);
+  
 }
 
 
