@@ -1,17 +1,53 @@
 .awards-box {
   &__img {
-    width: 41px;
-    height: 136px;
+    width: rem(41);
+    height: rem(136);
   }
   &__item {
-  display: flex;
-   margin-bottom: 45px;
-    &-title {
-      display: block;
-      font-size: rem(12);
-      font-family:'Acrom-font';
-      /* to do mistakes */
-      margin-bottom: 32px;
-      }
+    position: relative;
+    margin-bottom:rem(45);
+    & h4 {
+      margin-bottom: rem(13);
+    }
+    & span {
+      margin-bottom: rem(42);
+    }
   }
+}
+
+.mbuttom {
+  margin-bottom: 42px;
+}
+.gray::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  right:-60px;
+  width: rem(46);
+  height: rem(136);
+  background-image: url('../images/480px/icons/Layer_351.png');
+  background-repeat: no-repeat;
+}
+
+
+.awards-png::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right:-60px;
+  width: rem(80);
+  height: rem(68);
+  background-image: url('../images/480px/icons/Layer_413.png');
+  background-repeat: no-repeat;
+  }
+
+.best-educetion::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right:-60px;
+    width: rem(54);
+    height: rem(109);
+    background-image: url('../images/480px/icons/Layer_398.png');
+    background-repeat: no-repeat;
 }
