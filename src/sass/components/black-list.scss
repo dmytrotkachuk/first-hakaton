@@ -53,12 +53,23 @@
   @include for-size (tablet-portrait-up) {
     padding-left: 10px;
   }
-  
 
   &:before {
     @include for-size (tablet-portrait-up) {
       display: none;
     }
     
+  }
+}
+
+.img-header-block-1{
+  display: none;
+}
+@media (min-width:767px) {
+  .img-header-block-1{
+    display: block;
+  }
+  .img-header-block-2{
+    display: none;
   }
 }
