@@ -48,3 +48,17 @@
   font-size: rem(14);
   line-height: rem(19.5);
 }
+
+.section-2 .black-list__item {
+  @include for-size (tablet-portrait-up) {
+    padding-left: 10px;
+  }
+  
+
+  &:before {
+    @include for-size (tablet-portrait-up) {
+      display: none;
+    }
+    
+  }
+}
