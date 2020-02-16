@@ -1,11 +1,13 @@
 .footer {
     background-color: $footer-blue-color;
+    width: 100%;
+    height: rem(166);
 
     &-box {
-        height: rem(166);
         display: flex;
         justify-content: space-between;
         align-items: center;
+        
     }
    
     &-list  {
@@ -32,14 +34,15 @@
         }
 
         &__mail {
+            display: none;
             font-weight: $extra-bold;
             line-height: 2;
         }
     }
 
     &-btn {
-        width: rem(138);
-        height: rem(32);
+        width: rem(120);
+        height: rem(20);
         font-size: rem(8);
         border: 1px solid $footer-border-color;
         color: $white-color;

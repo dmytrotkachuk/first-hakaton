@@ -1,6 +1,7 @@
- .black-list{
+.black-list{
   display: flex;
-  flex-flow: row wrap; //added
+  flex-flow: row wrap;
+  padding: 20px 0;
 
     &__item {
       padding-left:  rem(40);
@@ -17,14 +18,14 @@
 
       }
     }
+  
 
     &__title {
       text-transform: uppercase;
       color: $black-color;
       font-weight: 800;
       margin-bottom: 10px;
-      
-    }
+
 
     &__description{
       font-size: rem(14);
@@ -32,12 +33,11 @@
       font-weight: normal;
       color: rgb(0, 0, 0);
       line-height: 1.444;
-      margin-bottom: rem(25);
-        
-          
-          
+      margin-bottom: rem(25);                
         }
      }
+}
+
 .black-list__decor {
   font-weight: $bold;
 }
@@ -48,27 +48,4 @@
   font-weight: $medium;
   font-size: rem(14);
   line-height: rem(19.5);
-
 }
-
-
-
-    
-  
-  
-
-      
-    
-
-      
-       
-  
-
-  
-
-
-    
-    
-  
-    
-  
