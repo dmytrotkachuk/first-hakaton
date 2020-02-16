@@ -1,11 +1,11 @@
 .header {
   margin: 0;
   padding: 0;
-  background-image: url(../img/GoIt_2.png);
+  background-image: url('../img/GoIt_2.png');
   background-position-y: 275px;
   background-position-x: center;
   background-repeat: no-repeat;
-  background-color: #181c27;
+  background-color: $footer-blue-color;
 }
 
 .site-navigation {
@@ -32,137 +32,118 @@
   margin: 0;
   height: 10px;
   border: none;
-  background-color: #181c27;
-}
-
-.block-welcome {
-  padding: 0;
-  margin: 0;
+  background-color: $footer-blue-color;
 }
 
 .block-socials {
   width: 100%;
 }
 
-.site-item__find {
+.header-content1 {
+  padding: 0;
+  margin: 0;
+}
+
+.header-content1__title {
+  margin: 0 auto;
+  color: $white-color;
+  font-size: rem(30);
+  font-family: $acrom;
+  line-height: rem(39);
+  width: rem(244);
+  padding-bottom: rem(46);
+}
+
+.header-content1__text {
   padding: 0;
   margin: 0 auto;
-  width: 368px;
-  font-size: 13.5px;
-  font-family: 'Acrom';
-  color: #ffffff;
+  width: rem(368);
+  font-size: rem(13.5);
+  line-height: rem(19.5);
+  font-family: $acrom;
+  color: $white-color;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.714;
   text-align: left;
-  margin-bottom: 164px;
+  margin-bottom: rem(164);
   position: relative;
 }
 
-.site-item__find::before {
+.header-content1__text::before {
   content: '\2039';
   position: absolute;
+  color: $blue-color;
   top: 0;
-  left: -14px;
+  left: rem(-14);
 }
 
-.site-item__find::after {
-  content: '/ \203A';
+.header-content1__text::after {
+  content: '/\203A';
+  color: $blue-color;
   position: absolute;
   bottom: 0;
-  right: -14px;
+  right: rem(-14);
 }
 
-.site-item__btn {
+.block-socials3__btn {
   padding: 0;
   margin: 0 auto;
   border: none;
   font-size: 11px;
-  background-color: #ff6b08;
+  background-color: $orange-color;
   box-shadow: 0px 9px 13px 0px #c4570f42;
-  font-family: 'Acrom';
-  color: #ffffff;
+  font-family: $acrom;
+  color: $white-color;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.5;
-  height: 56px;
-  width: 220px;
-  margin-bottom: 40px;
+  height: rem(56);
+  width: rem(219);
+  display: block;
 }
 
-.block-socials__find {
+.block-socials__text {
   padding: 0;
   margin: 0 auto;
-  font-size: 16px;
-  font-family: 'Acrom';
-  color: #afb0b3;
+  font-size: rem(13.5);
+  font-family: $acrom;
+  color: #87898e;
   line-height: 1.5;
   text-align: left;
-  width: 370px;
-  padding-bottom: 40px;
+  width: rem(30);
+  padding-bottom: rem(40);
+  width: rem(370);
 }
 
-.block-standart__style {
-  display: inline-block;
-  font-size: 24px;
-  font-family: 'Futura';
-  color: #ffffff;
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 0.75;
-  text-align: left;
-  transform: rotate(-90deg);
-}
-
-.block-standart__find {
-  width: 370px;
+.block-socials__title {
+  width: rem(370);
   padding: 0;
   margin: 0 auto;
-  font-size: 14px;
-  font-family: 'Futura';
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  line-height: 1.286;
-  text-align: left;
-}
-
-.block-socials__share {
-  width: 370px;
-  padding: 0;
-  margin: 0 auto;
-  font-size: 13.5px;
-  font-family: 'Acrom';
+  font-size: rem(13.5);
+  font-family: $acrom;
   color: rgb(255, 255, 255);
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.667;
-  padding-bottom: 18px;
+  padding-bottom: re, (18);
+  padding-bottom: rem(14);
 }
 
 .block-standart {
   padding: 0;
   margin: 0;
-  height: 30px;
+  height: rem(30);
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-/* svg */
-.block-gallery {
-  //display: flex;
-  // align-items: center;
-  // list-style: none;
-  // padding: 0;
-  // margin: 0;
- // width: 30px;
-}
-
 .block-gallery__logo {
   padding: 0;
   margin: 0;
-  height: 15px;
-  width: 15px;
+  height: rem(15);
+  width: rem(15);
   cursor: pointer;
   background-position: center;
   background-repeat: no-repeat;
@@ -180,11 +161,11 @@
 }
 
 .block-socials__icon--facebook {
-  width: 7px;
-  height: 12px;
+  width: rem(7);
+  height: rem(12);
 }
 
 .block-socials__icon--twitter {
-  width: 10px;
-  height: 9px;
+  width: rem(10);
+  height: rem(9);
 }
