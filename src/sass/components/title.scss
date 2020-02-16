@@ -5,19 +5,30 @@
   color: $black-color;
   font-size: rem(18);
   line-height: rem(24);
+  margin-bottom: rem(40);
 
   &-accent {
     color: $white-color;
     background-color: $black-color;
   }
 
+  &-accent-md {
+    font-weight: 500;
+    color: $black-color;
+  }
+
+  &-blue-accent {
+    background-color: #2ed3e4;
+  }
+
   &__description {
     position: relative;
     font-size: rem(13.5);
     line-height: rem(19.5);
-    font-weight: 500;
+    font-weight: 600;
     padding-left: rem(37);
     color: $black-color;
+    margin-bottom: 35px;
 
     &::before {
       @include pseudo($display: block, $content: '');
