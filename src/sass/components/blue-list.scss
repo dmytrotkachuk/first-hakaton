@@ -26,7 +26,7 @@
       font-family: $acrom;
       font-weight: $extra-bold;
       content: counter(section, decimal-leading-zero) '.';
-      clip: rect(auto auto auto rem(7));
+      clip: rect(auto auto auto rem(9));
       font-size: rem(24.54);
       line-height: rem(29.45);
       color: $black-color;
