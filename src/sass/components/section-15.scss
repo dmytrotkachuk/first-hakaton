@@ -1,6 +1,8 @@
 .section-15 {
   padding-top: rem(10);
   margin-bottom: rem(48);
+  display: flex;
+  justify-content: center;
 }
 
 .margin-bottom-48 {
@@ -9,4 +11,18 @@
 
 .margin-bottom-36 {
   margin-bottom: rem(36);
+}
+
+.margin-left-50 {
+  margin-left: rem(50);
+}
+
+.img-section-15 {
+  display: none;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
