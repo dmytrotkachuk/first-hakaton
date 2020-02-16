@@ -19,6 +19,11 @@
 
 .img-section-15 {
   display: none;
+
+  @include for-size (tablet-portrait-up) {
+    display: block;
+    text-align: right;
+  }
 }
 
 .justify-center {

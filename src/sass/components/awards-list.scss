@@ -27,6 +27,10 @@
   height: rem(136);
   background-image: url('../images/480px/icons/Layer_351.png');
   background-repeat: no-repeat;
+  @include for-size(tablet-portrait-up) {
+    right: 15px;
+    top: -20px;
+  }
 }
 
 
@@ -39,6 +43,10 @@
   height: rem(68);
   background-image: url('../images/480px/icons/Layer_413.png');
   background-repeat: no-repeat;
+  @include for-size(tablet-portrait-up) {
+    right: 15px;
+    top: -20px;
+  }
   }
 
 .best-educetion::after{
@@ -50,4 +58,9 @@
     height: rem(109);
     background-image: url('../images/480px/icons/Layer_398.png');
     background-repeat: no-repeat;
+
+    @include for-size(tablet-portrait-up) {
+      right: 15px;
+      top: -20px;
+    }
 }
