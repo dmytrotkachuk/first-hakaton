@@ -30,8 +30,8 @@
     &__description{
     font-size: rem(14);
     font-family: $acrom;
-    font-weight: normal;
-    color: rgb(0, 0, 0);
+    font-weight: $regular;
+    color: $black-color;
     line-height: 1.444;
     margin-bottom: rem(5);
   }

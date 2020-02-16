@@ -1,23 +1,5 @@
 .title {
-   
-    // &-description{
-    //   position: relative;
-    //   font-size: rem(16);
-    //   font-family: $acrom;
-    //   color: $black-color;
-    //   line-height: 1.5;
-    //   padding-left: rem(60);
   
-    //   &::before{
-    //       content: "";
-    //       background-color: $black-color;
-    //       position: absolute;
-    //       width: rem(32);
-    //       height: rem(4);
-    //       top: rem(10);
-    //       left: rem(20);    
-    //       }    
-    //   }
     &-text{
       font-size: rem(16);
       font-family: $acrom;
@@ -38,5 +20,18 @@
   font-weight: bold;
   line-height: 1.5; 
 }
-      
+  
+.section-7-img,
+.black-list__decor {
+    margin-bottom: 20px;
+}
+
+.section-7__box{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.simple-text{
+    margin-bottom: 45px;
+}
 
