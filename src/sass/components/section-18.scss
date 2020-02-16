@@ -45,11 +45,11 @@
   &::after {
     content: '';
     position: absolute;
-    width: rem(36);
+    width: rem(60);
     height: rem(1);
     background-color: $white-color;
     top: 50%;
-    left: 0;
+    left: 35%;
   }
 }
 
