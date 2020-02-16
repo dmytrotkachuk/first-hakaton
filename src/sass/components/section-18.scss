@@ -1,6 +1,112 @@
-.price{
-  width: rem(272);
+.section-18 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: rem(370);
+  margin-bottom: rem(30);
 
-  background-color: $dark-blue-color;
+  &-blue-column {
+    height: rem(275);
+    background-color: $dark-blue-color;
+    margin-bottom: rem(40);
+    box-shadow: 1px 4px 4px 4px rgba($color: $dark-blue-color, $alpha: 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
+.attention__list {
+  width: rem(230);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  // align-self: end;
+}
+
+.attention__text1 {
+  font-family: $acrom;
+  font-size: rem(13);
+  font-weight: $medium;
+  line-height: rem(19);
+  color: $white-color;
+}
+
+.attention__text2 {
+  font-family: $acrom;
+  font-size: rem(14.5);
+  line-height: rem(29);
+  font-weight: $extra-bold;
+  color: $white-color;
+  position: relative;
+  padding-left: rem(40);
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: rem(36);
+    height: rem(1);
+    background-color: $white-color;
+    top: 50%;
+    left: 0;
+  }
+}
+
+.attention__text3 {
+  display: inline-block;
+  font-family: $acrom;
+  font-size: rem(13);
+  line-height: rem(12);
+
+  font-weight: $medium;
+  color: $dark-blue-color;
+  background-color: $blue-color;
+}
+
+.attention__text4 {
+  font-family: $acrom;
+  font-size: rem(39);
+  font-weight: $extra-bold;
+  color: $white-color;
+}
+
+.attention__text4-span {
+  font-size: rem(12);
+  font-weight: $medium;
+}
+
+.attention__item {
+  width: 49%;
+}
+
+.attention__item:nth-child(n-2) {
+  margin-bottom: rem(20);
+}
+
+.section-18__attention-block {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: rem(280);
+}
+
+.attention-block__text-black {
+  font-family: $acrom;
+  font-size: rem(15);
+  font-weight: $bold;
+  color: $black-color;
+  margin-bottom: rem(10);
+}
+
+.attention-block__text-grey {
+  font-family: $acrom;
+  font-size: rem(15);
+  font-weight: $regular;
+  color: $text-color;
+  margin-bottom: rem(10);
+}
+
+.section-18-mb-26 {
+  margin-bottom: rem(26);
+}
